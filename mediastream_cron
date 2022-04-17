@@ -1,0 +1,1 @@
+*/5 * * * * root /usr/bin/tail -3 /var/log/syslog >> /mediastream/recolecta_info.log && /usr/bin/df -h /dev/md0 >> /mediastream/recolecta_info.log &&  /usr/bin/sha256sum /var/log/auth.log >> /mediastream/recolecta_info.log
